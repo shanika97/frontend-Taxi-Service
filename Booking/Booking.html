@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widt, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="common.css">
+
+	<title>Booking</title>
+	<style>
+		body{
+			background: #fde585;
+		}
+		.contain{
+		background-image: url(background.jpeg)  ;
+		background-repeat: no-repeat;
+			width: 100%;
+			
+			margin-left: 50px;
+			margin-right:50px;
+
+		}
+		.form{
+			box-sizing: border-box;
+			border: 3px solid black;
+			margin-left:50px;
+			margin-right:150px;
+			margin-top:50px;
+			margin-bottom:50px; 
+			height: 1300px;	
+		}
+		.data{
+			margin-left:50px;
+		}
+		input{
+			box-sizing: border-box;
+			border: 1px solid blue;
+			border-radius: 4px;
+		}
+
+		input[type=text],[type=email] {
+			width:25%;
+			padding: 12px 20px;
+			margin:8px 0;
+			box-sizing: border-box;
+			border: 1px solid blue;
+			border-radius: 4px;
+			line-height: 10px;
+
+		}
+		input[type=number]{
+			width:18%;
+
+		}
+		input[type=button]{
+			width:35%;
+			padding: 16px 32px;
+			margin:4px 2px;
+			text-decoration: none;
+			border: 1px solid blue;
+			border-radius: 4px;
+			background-color:#fcd436;
+			cursor: pointer;
+			margin-left: 25%;
+			margin-right: 75%;
+			margin-bottom: 10px;
+	
+		}
+		select{
+			border-color: blue;
+		}
+	
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="Logo">
+			<img src="logoimage.jpeg" alt="logo" width="100%">
+		</div>
+	</div>
+	<div class="marquee1"><marquee>Taxi.Lk   -    24x7   -    Taxis that you want    -    Nothing you don't.</marquee></div>
+<div class="navi">
+	
+<ul>
+  <li><a href="../Home/Home.html">Home</a></li>
+  <li class="dropdown">
+  <a href="#" class="dropbtn">Registration</a>
+  <div class="dropdown-content">
+  <a href="../Registration/Registration1.html">Driver</a>
+  <a href="../Registration/Registration2.html">Passenger</a>
+<li><a href="../Booking/Booking.html">Booking</a></li>
+
+  <li><a href="../Packages/Package.html">Packages</a></li>
+  <li><a href="../AboutUs/AboutUs.html">About us</a></li>
+  <li><a href="../Help/Help.html">Help</a></li>
+</div>
+</li>
+
+</ul>
+</div>
+<div class="contain">
+	
+<div class="form">
+<div class="data">
+	<center><h1> BOOK YOUR RIDE....</h1> </center>
+	<br>
+	<br>
+CATERGORY:<select name="cat">
+	<option name="cat" value="blank"></option>
+	<option name="cat" value="with" >Vehical Rent (with Driver)</option>
+	<option name="cat" value="without"> Vehical Rent (without Driver)</option>
+	<option name="cat" value="air"> Airport pickups</option>
+	<option name="cat" value="wedding"> Wedding Cars</option>
+</select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp PACKAGE &nbsp:<input type="Package" placeholder="Enter your Package">
+	<br>
+	<br>
+NAME &nbsp: <input type="text" placeholder="Enter your name"  >
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp EMAIL &nbsp:<input type="email" placeholder="Enter your email">
+<br><br>
+PHONE &nbsp :<br>
+<input type="number"  placeholder="Enter your phone number">
+<br>
+<br>
+PASS CODE &nbsp :<br>
+<input type="Pass code"  placeholder="Enter your pass code">
+<br>
+<br>
+PICKUP LOCATION :<BR>
+<input type="text" placeholder="Enter ZIP/Location">
+<br>
+<br>
+DESTINATION : <BR>
+<BR>
+<input type="text" placeholder="Enter ZIP/Location">
+<br>
+<br>
+PICKUP DATE  <br><br>
+DATE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+HOUR 
+&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp 
+MIN 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp AM/PM<br> <br>
+<input type="date" placeholder="mm/dd/yyyy"> &nbsp&nbsp&nbsp&nbsp&nbsp 
+<input type="number" placeholder="xx"> &nbsp&nbsp&nbsp&nbsp&nbsp 
+<input type="number" placeholder="xx">  &nbsp&nbsp&nbsp&nbsp&nbsp
+ <select name="am">
+	<option name="am" value="AM">AM</option>
+	<option name="pm" value="PM">PM</option>
+</select>
+<br>
+<br>
+<input type="button" name="submit" value="BOOK NOW">
+</div>
+</div></div>
+<div class="footer">
+	<div class="con">
+	<div class="address">
+		<div class="addresstext"><h3>Address</h3></div>
+		<address>
+			Taxi.LK,<br/>
+			No.347/6,<br/>
+			Gonahena,<br/>
+			Naiwala.
+		</address>
+	</div>
+	<div class="contact">
+	<div class="addresstext"><h3>Contact</h3></div>
+		<p><i>+94 112 530 894<br/>
+		+94 715 896 585<br/>
+		+94 778 556 258<br/>
+	    Taxi.LK@gmail.com</i></p>
+
+	</div>
+</div>
+<hr>
+<div class="hr" style="white">&copyTaxi.Lk 2020</div></div>
+</body>
+</html>
